@@ -1,6 +1,7 @@
-This is a basic Rails API with Graphiql installed to allow for local testing
+This is a basic Rails API with Graphiql installed  running on localhost:4000 to allow for local testing.
+It also has a react-apollo front end running on localhost:3000
 
-Rails APIs do not install Graphiql by default so it takes some jiggery pokery to get it up and running
+Rails APIs do not install Graphiql by default so it takes some jiggery pokery to get it up and running.
 
 Basic Set up:
 
@@ -62,3 +63,18 @@ Note:
 Nov 1st: There have been massive changes to the whoe GraphQl-Ruby Gem in the last few months rendering practically every online tutorial out of date. Please refer to the http://graphql-ruby.org/ docs if you are going to start exploring this. Truct me it will save you days of frustration!
 
 
+The front end is in the `client` folder and is currently set up to so it can talk to the back end once it is connected.
+
+
+To run the front end cd to the client folder and run: 
+
+```
+Yarn Install
+```
+
+Then run 
+
+```
+Yarn Start
+```
+and that should 
